@@ -82,3 +82,6 @@ archivematica_src_ssl_include_acme_chlg_loc: "false"
 # The following vars need to be defined in the playbook or host_vars:
 # archivematica_src_ssl_fullchain: "/var/lib/acme/live/mysite.org/fullchain"
 # archivematica_src_ssl_privkey: "/var/lib/acme/live/mysite.org/privkey"
+# acmetool_websrv: "nginx"
+# acmetool_responses_email: "youremail@email.com"
+# acmetool_want: "yourdomain.org"

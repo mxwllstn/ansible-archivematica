@@ -24,3 +24,7 @@
 - src: "https://github.com/artefactual-labs/ansible-clamav"
   version: "master"
   name: "artefactual.clamav"
+
+- src: "https://github.com/artefactual-labs/ansible-acmetool"
+  version: "master"
+  name: "artefactual.acmetool"

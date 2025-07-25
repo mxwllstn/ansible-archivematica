@@ -48,6 +48,11 @@
       tags:
         - "archivematica-src"
 
+    - role: "artefactual.acmetool"
+      become: "yes"
+      tags:
+        - "acmetool"
+
   post_tasks:
 
     - name: "change home dir perms (to make transfer source visible)"
